@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "image": "https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png",
+    "title": "Spotify Music",
+    "companyName": "Spotify AB",
+    "description": "Spotify lets you stream millions of songs and podcasts from all genres, create playlists, discover new music, and enjoy offline listening anytime, anywhere, making your music experience personalized and highly enjoyable for all kinds of listeners.",
+    "size": 85,
+    "reviews": 4500,
+    "ratingAvg": 4.6,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 7800 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "description": "Instagram allows you to share photos, videos, and stories with friends, follow interesting accounts, explore trending content, and express yourself visually, all while connecting with people around the world in a simple and interactive way.",
+    "size": 95,
+    "reviews": 9700,
+    "ratingAvg": 4.4,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 4200 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 7400 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "description": "Facebook helps you stay connected with friends, family, and communities worldwide. Share updates, photos, videos, join groups, participate in events, and explore news feeds, making it easy to engage socially online wherever you are.",
+    "size": 120,
+    "reviews": 8200,
+    "ratingAvg": 4.2,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 2800 },
+      { "name": "2 star", "count": 3100 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 8600 },
+      { "name": "5 star", "count": 9400 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms",
+    "description": "WhatsApp provides fast and secure messaging and calling for free. Send texts, voice messages, photos, videos, and make video or voice calls easily to your contacts anywhere in the world, all with end-to-end encryption.",
+    "size": 60,
+    "reviews": 7800,
+    "ratingAvg": 4.7,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3100 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 7500 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/1200px-Logo_of_Twitter.svg.png",
+    "title": "X (Twitter)",
+    "companyName": "X Corp",
+    "description": "X (Twitter) allows you to follow trends, news, and discussions from around the world. Post updates, interact with others, follow hashtags, and join conversations to stay informed and connected with global events and communities.",
+    "size": 70,
+    "reviews": 6900,
+    "ratingAvg": 4.0,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3300 },
+      { "name": "3 star", "count": 6100 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 8900 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-06-1024.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "YouTube is the platform for watching, uploading, and sharing videos globally. Explore music, vlogs, tutorials, live streams, and more, engage with creators, comment, and enjoy endless content across all interests and communities.",
+    "size": 110,
+    "reviews": 9000,
+    "ratingAvg": 4.5,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 2200 },
+      { "name": "2 star", "count": 3200 },
+      { "name": "3 star", "count": 4800 },
+      { "name": "4 star", "count": 7500 },
+      { "name": "5 star", "count": 9600 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://images.icon-icons.com/2631/PNG/512/gmail_new_logo_icon_159149.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "description": "Gmail provides fast, organized, and secure email service. Send and receive emails, manage your inbox with labels, filters, and folders, and easily connect with people around the world while keeping your communication private and efficient.",
+    "size": 55,
+    "reviews": 8500,
+    "ratingAvg": 4.8,
+    "downloads": 3600000,
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 2800 },
+      { "name": "3 star", "count": 4700 },
+      { "name": "4 star", "count": 7300 },
+      { "name": "5 star", "count": 9700 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://img.freepik.com/premium-vector/map-pin-icon_1273375-843.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "description": "Google Maps helps you navigate the world with real-time GPS, traffic updates, and directions. Discover local businesses, explore places, and plan routes efficiently, making travel and daily navigation easier and safer for everyone.",
+    "size": 65,
+    "reviews": 7900,
+    "ratingAvg": 4.6,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 2400 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 7500 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  },
+  {
+    "id": 9,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/75/Netflix_icon.svg",
+    "title": "Netflix",
+    "companyName": "Netflix Inc.",
+    "description": "Netflix lets you stream TV shows, movies, and original series instantly. Enjoy a wide range of content in various genres, create watchlists, receive recommendations, and enjoy entertainment anytime, anywhere across all your devices.",
+    "size": 130,
+    "reviews": 8800,
+    "ratingAvg": 4.5,
+    "downloads": 2800000,
+    "ratings": [
+      { "name": "1 star", "count": 2300 },
+      { "name": "2 star", "count": 3300 },
+      { "name": "3 star", "count": 5600 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 9700 }
+    ]
+  },
+  {
+    "id": 10,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "title": "Telegram",
+    "companyName": "Telegram FZ LLC",
+    "description": "Telegram offers fast, secure messaging with privacy-focused features. Share messages, media, and files, create channels and groups, and communicate globally while ensuring your information remains protected with advanced encryption.",
+    "size": 60,
+    "reviews": 7100,
+    "ratingAvg": 4.7,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 2900 },
+      { "name": "3 star", "count": 4600 },
+      { "name": "4 star", "count": 7700 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  },
+  {
+    "id": 11,
+    "image": "https://cdn4.iconfinder.com/data/icons/social-media-flat-7/64/Social-media_Tiktok-512.png",
+    "title": "TikTok",
+    "companyName": "ByteDance",
+    "description": "TikTok allows you to create and watch short-form videos with music and special effects. Explore trends, participate in challenges, share creativity, and discover content from millions of users globally in an engaging, entertaining way.",
+    "size": 100,
+    "reviews": 10200,
+    "ratingAvg": 4.7,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 8000 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "id": 12,
+    "image": "https://i.pinimg.com/736x/65/25/ea/6525ea3430a2145e472ce030dd98bdcb.jpg",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "description": "Snapchat enables sending photos and videos that disappear after viewing. Add creative filters, stickers, and effects, chat with friends, and explore stories from others to keep your communication fun and visually interactive.",
+    "size": 90,
+    "reviews": 8000,
+    "ratingAvg": 4.3,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 6000 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  },
+  {
+    "id": 13,
+    "image": "https://cdn-icons-png.flaticon.com/512/2496/2496097.png",
+    "title": "LinkedIn",
+    "companyName": "Microsoft",
+    "description": "LinkedIn connects professionals globally. Build your network, share updates, discover career opportunities, follow industry news, join professional groups, and strengthen your career through networking, knowledge sharing, and meaningful professional connections.",
+    "size": 110,
+    "reviews": 7500,
+    "ratingAvg": 4.6,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "id": 14,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest Inc.",
+    "description": "Pinterest allows discovering and saving creative ideas for your projects. Explore photos, tutorials, designs, and inspiration across diverse categories, organize collections, and bring ideas to life visually in an easy and intuitive platform.",
+    "size": 80,
+    "reviews": 6500,
+    "ratingAvg": 4.4,
+    "downloads": 1800000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  },
+  {
+    "id": 15,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Apple_Music_icon.svg/2048px-Apple_Music_icon.svg.png",
+    "title": "Apple Music",
+    "companyName": "Apple Inc.",
+    "description": "Apple Music offers streaming of millions of songs, playlists, and radio stations. Discover new artists, enjoy offline listening, create personal playlists, and enjoy a smooth music experience across all Apple devices with high-quality audio.",
+    "size": 100,
+    "reviews": 12000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 2500 },
+      { "name": "3 star", "count": 4000 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "id": 16,
+    "image": "https://pngimg.com/d/discord_PNG8.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "description": "Discord allows communities to chat via text, voice, and video. Create servers, join groups, share media, play games together, and interact with communities globally, making communication easy and fun for friends and interest-based groups.",
+    "size": 95,
+    "reviews": 8800,
+    "ratingAvg": 4.7,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 6500 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  },
+  {
+    "id": 17,
+    "image": "https://redditinc.com/hs-fs/hubfs/Reddit%20Inc/Content/Brand%20Page/Reddit_Logo.png",
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "description": "Reddit is a platform for discussions, news, and community engagement. Share content, post questions, explore subreddits, and interact with users worldwide to discuss topics of interest, discover trends, and engage socially in a structured online space.",
+    "size": 85,
+    "reviews": 7100,
+    "ratingAvg": 4.5,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 7500 }
+    ]
+  },
+  {
+    "id": 18,
+    "image": "https://cdn3.iconfinder.com/data/icons/social-media-2068/64/_shopping-512.png",
+    "title": "Shopify",
+    "companyName": "Shopify Inc.",
+    "description": "Shopify helps you build online stores and sell products globally. Manage inventory, process payments, track orders, and customize your shop easily while reaching customers worldwide through an intuitive, reliable e-commerce platform.",
+    "size": 120,
+    "reviews": 6800,
+    "ratingAvg": 4.4,
+    "downloads": 1300000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 5000 },
+      { "name": "5 star", "count": 7500 }
+    ]
+  },
+  {
+    "id": 19,
+    "image": "https://cdn.worldvectorlogo.com/logos/tinder-2.svg",
+    "title": "Tinder",
+    "companyName": "Tinder Inc.",
+    "description": "Tinder is a dating app that lets you swipe, match, and chat with people nearby or globally. Explore profiles, find connections, meet new people, and communicate safely in a modern, location-based dating platform.",
+    "size": 75,
+    "reviews": 5900,
+    "ratingAvg": 4.2,
+    "downloads": 2000000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 6000 }
+    ]
+  },
+  {
+    "id": 20,
+    "image": "https://img.freepik.com/premium-vector/round-zoom-logo-isolated-white-background_469489-904.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Zoom",
+    "companyName": "Zoom Video Communications",
+    "description": "Zoom provides video conferencing, webinars, and messaging for individuals and businesses. Join meetings, share screens, collaborate remotely, and communicate seamlessly, making virtual communication easy, reliable, and effective for all professional and personal needs.",
+    "size": 100,
+    "reviews": 8200,
+    "ratingAvg": 4.6,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 3500 },
+      { "name": "4 star", "count": 6500 },
+      { "name": "5 star", "count": 9000 }
+    ]
+  }
+]

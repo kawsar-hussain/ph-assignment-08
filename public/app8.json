@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "image": "https://storage.googleapis.com/pr-newsroom-wp/1/2023/05/Spotify_Primary_Logo_RGB_Green.png",
+    "title": "Spotify Music",
+    "companyName": "Spotify AB",
+    "description": "Spotify lets you stream millions of songs and podcasts from all genres, create playlists, discover new music, and enjoy offline listening anytime, anywhere, making your music experience personalized and highly enjoyable for all kinds of listeners.",
+    "size": 85,
+    "reviews": 4500,
+    "ratingAvg": 4.6,
+    "downloads": 1500000,
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 7800 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/95/Instagram_logo_2022.svg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms",
+    "description": "Instagram allows you to share photos, videos, and stories with friends, follow interesting accounts, explore trending content, and express yourself visually, all while connecting with people around the world in a simple and interactive way.",
+    "size": 95,
+    "reviews": 9700,
+    "ratingAvg": 4.4,
+    "downloads": 2300000,
+    "ratings": [
+      { "name": "1 star", "count": 3000 },
+      { "name": "2 star", "count": 4200 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 7400 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg",
+    "title": "Facebook",
+    "companyName": "Meta Platforms",
+    "description": "Facebook helps you stay connected with friends, family, and communities worldwide. Share updates, photos, videos, join groups, participate in events, and explore news feeds, making it easy to engage socially online wherever you are.",
+    "size": 120,
+    "reviews": 8200,
+    "ratingAvg": 4.2,
+    "downloads": 3000000,
+    "ratings": [
+      { "name": "1 star", "count": 2800 },
+      { "name": "2 star", "count": 3100 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 8600 },
+      { "name": "5 star", "count": 9400 }
+    ]
+  },
+  {
+    "id": 4,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "title": "WhatsApp Messenger",
+    "companyName": "Meta Platforms",
+    "description": "WhatsApp provides fast and secure messaging and calling for free. Send texts, voice messages, photos, videos, and make video or voice calls easily to your contacts anywhere in the world, all with end-to-end encryption.",
+    "size": 60,
+    "reviews": 7800,
+    "ratingAvg": 4.7,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 3100 },
+      { "name": "3 star", "count": 4200 },
+      { "name": "4 star", "count": 7500 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "id": 5,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/1200px-Logo_of_Twitter.svg.png",
+    "title": "X (Twitter)",
+    "companyName": "X Corp",
+    "description": "X (Twitter) allows you to follow trends, news, and discussions from around the world. Post updates, interact with others, follow hashtags, and join conversations to stay informed and connected with global events and communities.",
+    "size": 70,
+    "reviews": 6900,
+    "ratingAvg": 4.0,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 2500 },
+      { "name": "2 star", "count": 3300 },
+      { "name": "3 star", "count": 6100 },
+      { "name": "4 star", "count": 7000 },
+      { "name": "5 star", "count": 8900 }
+    ]
+  },
+  {
+    "id": 6,
+    "image": "https://cdn3.iconfinder.com/data/icons/social-network-30/512/social-06-1024.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "description": "YouTube is the platform for watching, uploading, and sharing videos globally. Explore music, vlogs, tutorials, live streams, and more, engage with creators, comment, and enjoy endless content across all interests and communities.",
+    "size": 110,
+    "reviews": 9000,
+    "ratingAvg": 4.5,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 2200 },
+      { "name": "2 star", "count": 3200 },
+      { "name": "3 star", "count": 4800 },
+      { "name": "4 star", "count": 7500 },
+      { "name": "5 star", "count": 9600 }
+    ]
+  },
+  {
+    "id": 7,
+    "image": "https://images.icon-icons.com/2631/PNG/512/gmail_new_logo_icon_159149.png",
+    "title": "Gmail",
+    "companyName": "Google LLC",
+    "description": "Gmail provides fast, organized, and secure email service. Send and receive emails, manage your inbox with labels, filters, and folders, and easily connect with people around the world while keeping your communication private and efficient.",
+    "size": 55,
+    "reviews": 8500,
+    "ratingAvg": 4.8,
+    "downloads": 3600000,
+    "ratings": [
+      { "name": "1 star", "count": 2100 },
+      { "name": "2 star", "count": 2800 },
+      { "name": "3 star", "count": 4700 },
+      { "name": "4 star", "count": 7300 },
+      { "name": "5 star", "count": 9700 }
+    ]
+  },
+  {
+    "id": 8,
+    "image": "https://img.freepik.com/premium-vector/map-pin-icon_1273375-843.jpg?semt=ais_hybrid&w=740&q=80",
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "description": "Google Maps helps you navigate the world with real-time GPS, traffic updates, and directions. Discover local businesses, explore places, and plan routes efficiently, making travel and daily navigation easier and safer for everyone.",
+    "size": 65,
+    "reviews": 7900,
+    "ratingAvg": 4.6,
+    "downloads": 2200000,
+    "ratings": [
+      { "name": "1 star", "count": 2400 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 5200 },
+      { "name": "4 star", "count": 7500 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  }
+]

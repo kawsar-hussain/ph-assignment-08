@@ -1,1 +1,66 @@
 @import "tailwindcss";
+
+body {
+  font-family: "Inter", sans-serif;
+}
+
+.active {
+  color: #4f18d1;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.btn {
+  background: linear-gradient(to left top, #9f62f2, #632ee3);
+  color: white;
+  font-weight: 500;
+  padding: 6px 16px;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* ! loader */
+.loader {
+  animation: spin 0.5s linear infinite;
+  width: 400px;
+  margin: 0 auto;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: transparent;
+}
+
+.loader img {
+  width: 70px;
+}
+
+.banner {
+  background: url("./assets/hero.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-color: #f0f0f0;
+}
+
+.gradient-text {
+  background: linear-gradient(to left top, #a786d5, #4c00ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.banner-footer {
+  background: linear-gradient(to left top, #9b65e6, #520af8);
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+
+.app {
+  background-color: #f0f0f0;
+  padding: 20px 80px;
+}

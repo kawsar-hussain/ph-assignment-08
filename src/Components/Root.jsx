@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import { Outlet } from "react-router";
-import App from "./App";
+import App from "./Apps/Apps";
 import Installations from "./Installations";
 import Footer from "./Footer";
 
@@ -13,7 +13,7 @@ const Root = () => {
         <App></App>
         <Installations></Installations>
       </Outlet>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 };
