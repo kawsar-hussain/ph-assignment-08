@@ -8,7 +8,7 @@ import App from "./Components/Apps/Apps";
 import Installations from "./Components/Installations";
 import AppDetails from "./Components/Apps/AppDetails";
 
-const appsPromise = fetch("/app.json").then((res) => res.json());
+const appsPromise = fetch("https://raw.githubusercontent.com/kawsar-hussain/ph-assignment-08/refs/heads/master/public/app.json").then((res) => res.json());
 
 const router = createBrowserRouter([
   {
@@ -38,7 +38,23 @@ const router = createBrowserRouter([
         Component: Installations,
       },
       {
-        path: "/app/details/:appid",
+        path: "/app/details/:appId",
+        loader: ({ params }) => {
+          return fetch("https://raw.githubusercontent.com/kawsar-hussain/ph-assignment-08/refs/heads/master/public/app.json")
+            .then((res) => {
+              if (!res.ok) {
+                throw new Error("Failed to fetch data");
+              }
+              return res.json();
+            })
+            .then((data) => {
+              const app = data.find((item) => item.id === Number(params.appId));
+              if (!app) {
+                throw new Response("App not found", { status: 404 });
+              }
+              return app;
+            });
+        },
         Component: AppDetails,
       },
     ],

@@ -1,9 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router";
 
 const App = ({ app }) => {
   const { image, title, companyName, downloads, ratingAvg } = app;
+
+  const navigate = useNavigate();
+
+  const goAppDetails = () => {
+    navigate(`/app/details/${app.id}`);
+  };
+
   return (
-    <div className="p-4 bg-white rounded-md flex flex-col justify-between">
+    <div className="p-4 bg-white rounded-md flex flex-col justify-between" onClick={goAppDetails}>
       <div className="p-10">
         <img className="w-full rounded-md" src={image} alt="" />
       </div>
