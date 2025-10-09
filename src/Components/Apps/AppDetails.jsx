@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useLoaderData } from "react-router";
 import Charts from "./Charts";
 
@@ -8,10 +8,43 @@ const AppDetails = () => {
   const [install, setInstall] = useState(false);
 
   const handleInstall = () => {
-    setInstall(!install);
+    try {
+      const stored = JSON.parse(localStorage.getItem("installations") || "[]");
+      const exists = stored.find((item) => item.id === details.id);
+      if (!exists) {
+        stored.push(details);
+        localStorage.setItem("installations", JSON.stringify(stored));
+        window.dispatchEvent(new Event("installationsUpdated"));
+      }
+      setInstall(true);
+    } catch (e) {
+      console.error("Failed to save installation:", e);
+    }
   };
 
-  const { image, title, companyName, downloads, ratingAvg, reviews, description } = details;
+  useEffect(() => {
+    const updateInstalledState = () => {
+      try {
+        const stored = JSON.parse(localStorage.getItem("installations") || "[]");
+        const exists = stored.find((item) => item.id === details.id);
+        setInstall(Boolean(exists));
+      } catch (e) {
+        console.error("Failed to read installations:", e);
+      }
+    };
+
+    updateInstalledState();
+
+    window.addEventListener("installationsUpdated", updateInstalledState);
+    window.addEventListener("storage", updateInstalledState);
+
+    return () => {
+      window.removeEventListener("installationsUpdated", updateInstalledState);
+      window.removeEventListener("storage", updateInstalledState);
+    };
+  }, [details.id]);
+
+  const { image, title, companyName, downloads, ratingAvg, reviews, description, size } = details;
 
   return (
     <div className="app-details">
@@ -44,8 +77,8 @@ const AppDetails = () => {
             </div>
           </div>
           {/* install now btn */}
-          <button onClick={handleInstall} className="bg-[#0ec289] text-gray-100  py-1 rounded mt-2 self-start cursor-pointer w-[150px]">
-            {install ? "Installed" : "Install Now"}
+          <button onClick={handleInstall} className="bg-[#0ec289] text-gray-100 px-5  py-1 rounded mt-2 self-start cursor-pointer ">
+            {install ? "Installed" : `Install Now (${size} MB)`}
           </button>
         </div>
       </div>

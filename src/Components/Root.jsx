@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import { Outlet } from "react-router";
-import App from "./Apps/Apps";
+import Apps from "./Apps/Apps";
 import Installations from "./Installations";
 import Footer from "./Footer";
 
@@ -10,7 +10,7 @@ const Root = () => {
     <div>
       <Header></Header>
       <Outlet>
-        <App></App>
+        <Apps></Apps>
         <Installations></Installations>
       </Outlet>
       {/* <Footer></Footer> */}

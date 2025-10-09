@@ -4,7 +4,7 @@ import "./style.css";
 import { createBrowserRouter, RouterProvider } from "react-router";
 import Root from "./Components/Root";
 import Home from "./Components/Home/Home";
-import App from "./Components/Apps/Apps";
+import Apps from "./Components/Apps/Apps";
 import Installations from "./Components/Installations";
 import AppDetails from "./Components/Apps/AppDetails";
 
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
               </div>
             }
           >
-            <App appsPromise={appsPromise}></App>
+            <Apps appsPromise={appsPromise}></Apps>
           </Suspense>
         ),
       },

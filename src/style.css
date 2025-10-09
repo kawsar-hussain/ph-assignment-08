@@ -10,7 +10,8 @@ body {
   text-underline-offset: 4px;
 }
 
-.btn {
+.btn,
+.btn2 {
   background: linear-gradient(to left top, #9f62f2, #632ee3);
   color: white;
   font-weight: 500;
@@ -20,6 +21,12 @@ body {
   align-items: center;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.btn2 {
+  margin: 30px auto 0;
+
+  border-radius: 1000px;
 }
 
 /* ! loader */
@@ -68,4 +75,9 @@ body {
 .app-details {
   background-color: #f0f0f0;
   padding: 40px 80px;
+}
+
+.installations {
+  background-color: #f0f0f0;
+  padding: 20px 80px;
 }

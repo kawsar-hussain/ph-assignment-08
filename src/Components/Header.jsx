@@ -16,7 +16,7 @@ const Header = () => {
         </nav>
         <a href="https://github.com/kawsar-hussain" target="blank">
           <button className="btn">
-            <i class="fa-brands fa-github"></i>Contribute
+            <i className="fa-brands fa-github"></i>Contribute
           </button>
         </a>
       </header>
