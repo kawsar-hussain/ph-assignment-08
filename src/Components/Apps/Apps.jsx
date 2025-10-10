@@ -29,7 +29,7 @@ const Apps = ({ appsPromise }) => {
     <div className="app">
       <h2 className="text-3xl font-bold text-center pt-[30px] text-gray-700 ">Our All Applications</h2>
       <p className="text-center text-gray-600 pt-2 pb-0 lg:pb-10">Explore All Apps on the Market developed by us. We code for Millions</p>
-      <div className="flex lg:flex-row flex-col gap-3 justify-between items-center my-9 ">
+      <div className="flex lg:flex-row flex-col gap-3 justify-between items-center my-4 lg:my-9 ">
         <p className="font-bold text-xl">({filteredApps?.length || 0}) Apps Found</p>
         <div className="border border-gray-400 px-3 py-2 w-[90%] lg:w-[300px] text-sm rounded-[1000px] flex items-center gap-2">
           <i className="fa-solid fa-magnifying-glass text-gray-600 "></i>
@@ -38,12 +38,12 @@ const Apps = ({ appsPromise }) => {
       </div>
 
       {searching ? (
-        <div className="flex flex-col justify-center items-center h-[50vh]">
-          <p className="flex text-5xl font-bold text-gray-500 mb-8 tracking-widest">
+        <div className="flex flex-col justify-center items-center h-[40vh] lg:h-[90vh]">
+          <p className="flex text-2xl lg:text-5xl font-bold text-gray-500 mb-8 tracking-widest">
             Lo
-            <div className="loader">
+            <span className="loader">
               <img src="/logo.png"></img>
-            </div>
+            </span>
             ding...
           </p>
         </div>

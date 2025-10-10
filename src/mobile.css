@@ -6,12 +6,7 @@
 
   /* ! loader */
   .loader {
-    width: 70px;
-    animation: spin-scale 0.5s linear infinite;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: transparent;
+    width: 40px;
   }
 
   @keyframes spin-scale {

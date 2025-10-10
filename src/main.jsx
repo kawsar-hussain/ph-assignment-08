@@ -28,12 +28,12 @@ const router = createBrowserRouter([
         element: (
           <Suspense
             fallback={
-              <div className="flex flex-col justify-center items-center h-[90vh]">
-                <p className="flex text-5xl font-bold text-gray-500 mb-8 tracking-widest">
+              <div className="flex flex-col justify-center items-center h-[100vh] lg:h-[90vh]">
+                <p className="flex text-2xl lg:text-5xl font-bold text-gray-500 mb-8 tracking-widest">
                   Lo
-                  <div className="loader">
+                  <span className="loader">
                     <img src="/logo.png"></img>
-                  </div>
+                  </span>
                   ding...
                 </p>
               </div>
