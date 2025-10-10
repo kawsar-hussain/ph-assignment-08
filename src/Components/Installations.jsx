@@ -60,9 +60,9 @@ const Installations = () => {
       <p className="text-center text-gray-600 pt-2 pb-0 lg:pb-10">Explore All Trending Apps on the Market developed by us</p>
 
       <div className="flex justify-between items-center my-5 lg:my-9 ">
-        <p className="font-bold text-xl"> ({installedList.length}) Apps Found</p>
+        <p className="font-bold text-[14px] lg:text-xl text-gray-700"> ({installedList.length}) Apps Found</p>
 
-        <fieldset className="fieldset w-[200px]">
+        <fieldset className="fieldset w-[170px] lg:w-[200px]">
           <select value={sortOption} className="select" onChange={(e) => setSortOption(e.target.value)}>
             <option value="" disabled>
               Sort By Size
@@ -77,13 +77,13 @@ const Installations = () => {
       {displayList.length ? (
         <div className="grid grid-cols-1 rounded gap-3 ">
           {displayList.map((item) => (
-            <div key={item.id} className="flex items-center justify-between gap-4 bg-white p-3 rounded">
-              <div className="flex gap-4">
-                <div className="w-[80px] bg-white border border-gray-300 flex justify-center items-center p-3 rounded-md ">
+            <div key={item.id} className="flex items-center justify-between gap-4 bg-white p-2 lg:p-3 rounded">
+              <div className="flex gap-2 lg:gap-4">
+                <div className="w-[80px] bg-white border border-gray-300 flex justify-center items-center p-2 lg:p-3 rounded-md ">
                   <img src={item.image} alt="" className="rounded-md" />
                 </div>
                 <div className=" flex flex-col justify-between py-2">
-                  <h2 className="font-semibold">{item.title}</h2>
+                  <h2 className="font-semibold text-gray-700">{item.title}</h2>
                   <div className="flex gap-4 lg:gap-5 items-center">
                     <div className="flex gap-1 items-center">
                       <img className="w-3 h-3" src="/icon-downloads.png" alt="" />
@@ -98,7 +98,7 @@ const Installations = () => {
                 </div>
               </div>
               <div>
-                <button className="bg-[#0ec289] text-gray-100 px-5  py-1 rounded mt-2 self-start cursor-pointer " onClick={() => handleUninstall(item.id, item.title)}>
+                <button className="bg-[#0ec289] text-gray-100 text-sm lg:text-[16px] px-3 lg:px-5  py-1 rounded mt-2 self-start cursor-pointer " onClick={() => handleUninstall(item.id, item.title)}>
                   Uninstall
                 </button>
               </div>

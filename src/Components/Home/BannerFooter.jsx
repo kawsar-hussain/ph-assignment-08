@@ -3,7 +3,7 @@ import React from "react";
 const BannerFooter = () => {
   return (
     <div className="banner-footer">
-      <h3 className="font-bold text-3xl lg:text-5xl mb-6 lg:mb-12">Trusted by Millions, Built for You</h3>
+      <h3 className="font-bold text-2xl lg:text-5xl mb-6 lg:mb-12">Trusted by Millions, Built for You</h3>
       <div className="banner-info-container flex flex-col lg:flex-row justify-center gap-5 lg:gap-[90px]">
         <div className="banner-info lg:border-none border-1 rounded-md lg:p-0 p-2 border-gray-400">
           <p className="text-sm text-[#d7d7d7]">Total Downloads</p>

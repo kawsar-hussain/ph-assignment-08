@@ -38,7 +38,12 @@ const Footer = () => {
       <div className="px-0 lg:px-[80px]">
         <hr className="text-gray-700 mb-6" />
       </div>
-      <p className="text-center text-sm text-gray-400">Copyright &copy; 2025 HERO.IO - All right reserved</p>
+      <div className="text-center  text-gray-400">
+        <p className=" text-sm">Copyright &copy; 2025 HERO.IO - All right reserved</p>
+        <p className="text-xs mt-1">
+          Developed By <span className="font-bold">Kawsar Hussain</span>
+        </p>
+      </div>
     </div>
   );
 };

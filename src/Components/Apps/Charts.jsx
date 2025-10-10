@@ -11,7 +11,7 @@ const Charts = ({ details }) => {
 
   return (
     <div style={{ width: "100%", height: 300 }} className="my-10">
-      <h4 className="font-bold text-2xl mb-5">Ratings</h4>
+      <h4 className="font-bold text-2xl mb-5 text-gray-700">Ratings</h4>
       <ResponsiveContainer width="100%" height="100%">
         <BarChart data={[...data].reverse()} layout="vertical" barCategoryGap={10}>
           <XAxis type="number" />

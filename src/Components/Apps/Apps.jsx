@@ -29,7 +29,7 @@ const Apps = ({ appsPromise }) => {
     <div className="app">
       <h2 className="text-3xl font-bold text-center pt-[30px] text-gray-700 ">Our All Applications</h2>
       <p className="text-center text-gray-600 pt-2 pb-0 lg:pb-10">Explore All Apps on the Market developed by us. We code for Millions</p>
-      <div className="flex lg:flex-row flex-col gap-3 justify-between items-center my-4 lg:my-9 ">
+      <div className="flex lg:flex-row flex-col gap-3 justify-between items-center my-4 mb-10  lg:my-9 ">
         <p className="font-bold text-xl">({filteredApps?.length || 0}) Apps Found</p>
         <div className="border border-gray-400 px-3 py-2 w-[90%] lg:w-[300px] text-sm rounded-[1000px] flex items-center gap-2">
           <i className="fa-solid fa-magnifying-glass text-gray-600 "></i>
@@ -48,7 +48,7 @@ const Apps = ({ appsPromise }) => {
           </p>
         </div>
       ) : filteredApps && filteredApps.length ? (
-        <div className="grid grid-cols-2 lg:grid-cols-4 lg:gap-5 gap-3">
+        <div className="grid grid-cols-2 lg:grid-cols-4 lg:gap-5 gap-2">
           {filteredApps.map((app) => (
             <App key={app.id} app={app}></App>
           ))}
