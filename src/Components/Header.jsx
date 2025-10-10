@@ -19,6 +19,7 @@ const Header = () => {
           <i className="fa-solid fa-mobile-screen-button"></i>Installations
         </NavLink>
       </nav>
+      {/* i removed this btn from small device and visible its in footer for small device, cause of better nav design for small device */}
       <a href="https://github.com/kawsar-hussain" target="blank" className="hidden lg:block">
         <button className="btn">
           <i className="fa-brands fa-github"></i>Contribute

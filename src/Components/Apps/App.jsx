@@ -13,7 +13,7 @@ const App = ({ app }) => {
   return (
     <div className="p-3 sm:p-4 bg-white rounded-md flex flex-col justify-between hover:scale-[1.01] hover:shadow-md duration-75" onClick={goAppDetails}>
       <div className="p-2 lg:p-10">
-        <img className="w-full rounded-md" src={image} alt="" />
+        <img className="w-full rounded-md " src={image} alt="" />
       </div>
       <div>
         <p className="font-bold text-md pt-2 ">{title}</p>
