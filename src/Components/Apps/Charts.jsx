@@ -19,6 +19,9 @@ const Charts = ({ details }) => {
           <Bar dataKey="count" fill="#ff8811" />
         </BarChart>
       </ResponsiveContainer>
+      <div className="flex justify-center items-center gap-1 mt-3">
+        <p className="w-3.5 h-3.5 bg-[#ff8811]"></p> <span>Count</span>
+      </div>
     </div>
   );
 };

@@ -1,12 +1,15 @@
 import { StrictMode, Suspense } from "react";
 import { createRoot } from "react-dom/client";
 import "./style.css";
+import "./mobile.css";
 import { createBrowserRouter, RouterProvider } from "react-router";
 import Root from "./Components/Root";
 import Home from "./Components/Home/Home";
 import Apps from "./Components/Apps/Apps";
 import Installations from "./Components/Installations";
 import AppDetails from "./Components/Apps/AppDetails";
+import AppNotFound from "./Components/Apps/AppNotFound";
+import ErrorPage from "./Components/ErrorPage";
 
 const appsPromise = fetch("https://raw.githubusercontent.com/kawsar-hussain/ph-assignment-08/refs/heads/master/public/app.json").then((res) => res.json());
 
@@ -14,6 +17,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     Component: Root,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
@@ -24,8 +28,14 @@ const router = createBrowserRouter([
         element: (
           <Suspense
             fallback={
-              <div className="loader">
-                <img src="/logo.png"></img>
+              <div className="flex flex-col justify-center items-center h-[90vh]">
+                <p className="flex text-5xl font-bold text-gray-500 mb-8 tracking-widest">
+                  Lo
+                  <div className="loader">
+                    <img src="/logo.png"></img>
+                  </div>
+                  ding...
+                </p>
               </div>
             }
           >
@@ -55,7 +65,9 @@ const router = createBrowserRouter([
               return app;
             });
         },
+
         Component: AppDetails,
+        errorElement: <AppNotFound />,
       },
     ],
   },

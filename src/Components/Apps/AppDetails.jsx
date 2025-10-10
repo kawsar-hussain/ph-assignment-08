@@ -1,11 +1,26 @@
 import React, { useState, useEffect } from "react";
 import { useLoaderData } from "react-router";
 import Charts from "./Charts";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const AppDetails = () => {
   const details = useLoaderData();
 
   const [install, setInstall] = useState(false);
+
+  // toastify
+  const handleClick = () => {
+    toast.success(`Yahoo!!!⚡${details.title} installed successfully!`, {
+      position: "top-center",
+      autoClose: 2000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      theme: "colored",
+    });
+  };
 
   const handleInstall = () => {
     try {
@@ -20,6 +35,8 @@ const AppDetails = () => {
     } catch (e) {
       console.error("Failed to save installation:", e);
     }
+
+    handleClick();
   };
 
   useEffect(() => {
@@ -88,6 +105,8 @@ const AppDetails = () => {
       <hr className="text-gray-300 my-9" />
       <h2 className="text-2xl font-bold">Description</h2>
       <p className="mt-3 text-gray-600">{description}</p>
+
+      <ToastContainer />
     </div>
   );
 };

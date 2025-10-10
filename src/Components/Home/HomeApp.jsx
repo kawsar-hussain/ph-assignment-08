@@ -3,8 +3,8 @@ import React from "react";
 const HomeApp = ({ app }) => {
   const { image, title, companyName, downloads, ratingAvg } = app;
   return (
-    <div className="p-4 bg-white rounded-md flex flex-col justify-between">
-      <div className="p-10">
+    <div className="p-4 bg-white rounded-md flex flex-col justify-between  hover:scale-[1.01] hover:shadow-md duration-75">
+      <div className="p-2 lg:p-10">
         <img className="w-full rounded-md" src={image} alt="" />
       </div>
       <div>
@@ -17,7 +17,7 @@ const HomeApp = ({ app }) => {
           </div>
           <div className="flex items-center  bg-[#ff881125] px-2 py-1 rounded-sm ">
             <img className="w-4 mr-2" src="/icon-ratings.png" alt="" />
-            <span className="font-medium text-[#e67402]"> {ratingAvg}</span>
+            <span className="font-medium text-[#e67402]">{ratingAvg}</span>
           </div>
         </div>
       </div>
