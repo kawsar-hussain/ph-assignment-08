@@ -4,9 +4,14 @@ const Footer = () => {
   return (
     <footer className="footer sm:footer-horizontal bg-black text-[#f0f0f0] p-10">
       <aside>
-        <img src="/public/logo.png" className="w-[70px]" alt="" />
+        <img src="/logo.png" className="w-[70px]" alt="" />
         <p>HERO.IO</p>
         <p className="text-gray-400">Providing trusted app installations since 2013.</p>
+        <a href="https://github.com/kawsar-hussain" target="blank" className="lg:hidden block mt-2">
+          <button className="btn">
+            <i className="fa-brands fa-github"></i>Contribute
+          </button>
+        </a>
       </aside>
       <nav>
         <h6 className="footer-title">Services</h6>

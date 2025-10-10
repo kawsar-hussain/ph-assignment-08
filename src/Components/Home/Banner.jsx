@@ -11,11 +11,11 @@ const Banner = () => {
       </p>
 
       <div className="flex flex-col lg:flex-row  lg:gap-4 gap-2 items-center justify-center lg:mt-8 mt-4">
-        <img className="lg:w-[200px] w-[80%] cursor-pointer" src="/public/PlayStore.jpg" alt="" />
-        <img className="lg:w-[200px] w-[80%] cursor-pointer" src="/public/appStore.jpg" alt="" />
+        <img className="lg:w-[200px] w-[80%] cursor-pointer" src="/PlayStore.jpg" alt="" />
+        <img className="lg:w-[200px] w-[80%] cursor-pointer" src="/appStore.jpg" alt="" />
       </div>
       <div className="">
-        <img className="mt-[30px] lg:mt-[50px] lg:w-[45%] w-[80%] m-auto" src="/public/hero.png" alt="" />
+        <img className="mt-[30px] lg:mt-[50px] lg:w-[45%] w-[80%] m-auto" src="/hero.png" alt="" />
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ const ErrorPage = () => {
     <div>
       <Header />
       <div className="h-[70vh]">
-        <img className="m-auto mt-[80px]" src="/public/error-404.png" alt="" />
+        <img className="m-auto mt-[80px]" src="/error-404.png" alt="" />
 
         <Link to="/">
           <button className="btn w-[150px] m-auto mt-12">Go Home</button>

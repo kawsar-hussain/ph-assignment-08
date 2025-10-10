@@ -57,9 +57,9 @@ const Installations = () => {
   return (
     <div className="installations min-h-[80vh]">
       <h2 className="text-3xl font-bold text-center pt-[30px] text-gray-700">Your Installed Apps</h2>
-      <p className="text-center text-gray-600 pt-2 pb-10">Explore All Trending Apps on the Market developed by us</p>
+      <p className="text-center text-gray-600 pt-2 pb-0 lg:pb-10">Explore All Trending Apps on the Market developed by us</p>
 
-      <div className="flex justify-between items-center my-9 ">
+      <div className="flex justify-between items-center my-5 lg:my-9 ">
         <p className="font-bold text-xl"> ({installedList.length}) Apps Found</p>
 
         <fieldset className="fieldset w-[200px]">
@@ -84,9 +84,9 @@ const Installations = () => {
                 </div>
                 <div className=" flex flex-col justify-between py-2">
                   <h2 className="font-semibold">{item.title}</h2>
-                  <div className="flex gap-5 items-center">
+                  <div className="flex gap-4 lg:gap-5 items-center">
                     <div className="flex gap-1 items-center">
-                      <img className="w-3 h-3" src="/public/icon-downloads.png" alt="" />
+                      <img className="w-3 h-3" src="/icon-downloads.png" alt="" />
                       <span className="text-xs text-[#0ec289] font-bold">{item.downloads / 1000000}M</span>
                     </div>
                     <div className="flex gap-1 items-center">

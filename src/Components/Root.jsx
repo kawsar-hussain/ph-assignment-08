@@ -4,13 +4,14 @@ import { Outlet } from "react-router";
 import Apps from "./Apps/Apps";
 import Installations from "./Installations";
 import Footer from "./Footer";
-import Header2 from "./Header2";
+import Logo from "./Logo";
 
 const Root = () => {
   return (
     <div>
+      {/*  this Logo component only visible for small device */}
+      <Logo></Logo>
       <Header></Header>
-      {/* <Header2></Header2> */}
       <Outlet>
         <Apps></Apps>
         <Installations></Installations>

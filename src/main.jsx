@@ -11,7 +11,7 @@ import AppDetails from "./Components/Apps/AppDetails";
 import AppNotFound from "./Components/Apps/AppNotFound";
 import ErrorPage from "./Components/ErrorPage";
 
-const appsPromise = fetch("https://raw.githubusercontent.com/kawsar-hussain/ph-assignment-08/refs/heads/master/public/app.json").then((res) => res.json());
+const appsPromise = fetch("/app.json").then((res) => res.json());
 
 const router = createBrowserRouter([
   {
@@ -50,7 +50,7 @@ const router = createBrowserRouter([
       {
         path: "/app/details/:appId",
         loader: ({ params }) => {
-          return fetch("https://raw.githubusercontent.com/kawsar-hussain/ph-assignment-08/refs/heads/master/public/app.json")
+          return fetch("/app.json")
             .then((res) => {
               if (!res.ok) {
                 throw new Error("Failed to fetch data");
