@@ -65,8 +65,8 @@ const AppDetails = () => {
 
   return (
     <div className="app-details">
-      <div className="flex lg:flex-row flex-col gap-8 lg:gap-10 h-auto lg:h-[270px]">
-        <div className="w-[100%] m-auto lg:w-[270px] bg-white flex justify-center items-center p-4 rounded-md shadow">
+      <div className="flex lg:flex-row flex-col gap-8 lg:gap-10 h-auto lg:h-[290px]">
+        <div className="w-[100%] h-full m-auto lg:w-[270px] bg-white flex justify-center items-center p-4 rounded-md shadow">
           <img src={image} alt="" className="rounded-md" />
         </div>
         {/* app info */}
