@@ -6,7 +6,7 @@ const Header = () => {
     <header className="flex  items-center justify-center lg:justify-between px-0 lg:px-20 py-3 lg:py-5 shadow-sm sticky top-0 bg-white z-10">
       <a href="/" className="hidden lg:flex items-center gap-1.5 ">
         <img src="/logo.png" alt="" className="w-10" />
-        <p className="font-bold text-[#7a47c1] text-xl">HERO.IO</p>
+        <p className="font-bold text-[#7a47c1] text-xl">SoftCloud</p>
       </a>
       <nav className="flex gap-8 font-medium text-[#151515]">
         <NavLink to="/" className="text-center">

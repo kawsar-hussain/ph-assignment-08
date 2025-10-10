@@ -1,16 +1,14 @@
-# React + Vite
+# Hello! Welcome to my `SoftCloud` web app.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**About SoftCloud:** SoftCloud is a web-based application platform that simplifies app installation and management for both Android and iOS users. All available in one place. Whether you’re looking for productivity tools, games, or essential utilities, SoftCloud lets you explore, install, and manage your favorite apps with just a few clicks.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Tools:**
 
-## React Compiler
+- JavaScript
+- React
+- Tailwind CSS
+- Raw CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+[🔗 Click here to visit SoftCloud](https://kawsar-hussain-ph-assignment-08.netlify.app/)
